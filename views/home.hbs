@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div style=" position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);">
+    <h1>Личный кабинет</h1>
+    <tr>
+        <li>Имя: {{user.firstname}}</li>
+        <li>Фамилия: {{user.lastname}}</li>
+        <li>Ваш никнейм: {{user.username}}</li>
+        <li>Ваш email: {{user.email}}</li>
+    </tr>
+    <a class="btn btn-primary" style="margin-top: 10px;" href="/logout" type="button">Выйти</a>
+        </div>
+
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
